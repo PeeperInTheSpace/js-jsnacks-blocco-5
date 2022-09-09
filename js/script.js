@@ -58,20 +58,19 @@ const footballTeams = [
 for (let i = 0; i < footballTeams.length; i++) {
 
     const match = footballTeams[i];
-    console.log(match.gol);
 
     const golNumber = parseInt(Math.random() * 10);
-    console.log(golNumber);
 
     const falliNumber = parseInt(Math.random() * 10);
-    console.log(falliNumber); 
 
-    golNumber.push(footballTeams.gol); 
-       
-    // footballTeams.push(footballTeams.gol.pushgolNumber, falli: falliNumber)
-    // footballTeams.gol.push(golNumber);
-    // footballTeams.push
+    match.gol = golNumber;
+
+    match.falli = falliNumber;
 
 }
 
 console.log(footballTeams);
+
+
+// SNACK 2
+
