@@ -51,14 +51,27 @@ const footballTeams = [
         nome : "milan",
         gol: 0,
         falli: 0,
-    },
+    }
 
 ]
-
 
 for (let i = 0; i < footballTeams.length; i++) {
 
     const match = footballTeams[i];
     console.log(match.gol);
 
+    const golNumber = parseInt(Math.random() * 10);
+    console.log(golNumber);
+
+    const falliNumber = parseInt(Math.random() * 10);
+    console.log(falliNumber); 
+
+    golNumber.push(footballTeams.gol); 
+       
+    // footballTeams.push(footballTeams.gol.pushgolNumber, falli: falliNumber)
+    // footballTeams.gol.push(golNumber);
+    // footballTeams.push
+
 }
+
+console.log(footballTeams);
