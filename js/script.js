@@ -74,3 +74,11 @@ console.log(footballTeams);
 
 // SNACK 2
 
+function myFunction(array, indexA, indexB) {
+
+    indexA = 5;
+    indexB = 15;
+
+}
+
+myFunction();
